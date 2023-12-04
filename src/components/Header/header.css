@@ -1,0 +1,32 @@
+.logo{
+  height: 119px;
+  width: 186px;
+  
+}
+
+nav ul{
+    height: 13vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 19px;
+  
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 0 20px;
+  font-size: large;
+  font-weight: 600;
+  
+}
+nav ul li a:hover{
+  color: #0788CA;
+  border-bottom: 3px solid #0788CA;
+  padding-bottom: 22px;
+}
