@@ -60,8 +60,8 @@ const Crousal = () => {
       </Carousel>
       <Box
         sx={{
-          height: "100vh",
-          width: "100vw",
+          height: {xl:"100vh",lg:"100vh",md:"80vh",sm:"80vh",xs:"80vh"},
+          width:  "100vw",
           display: {
             xl: "flex",
             lg: "flex",
@@ -85,9 +85,9 @@ const Crousal = () => {
             height: {
               xl: "100vh",
               lg: "100vh",
-              md: "50vh",
-              sm: "50vh",
-              xs: "50vh",
+              md: "30vh",
+              sm: "30vh",
+              xs: "27vh",
             },
             display: "flex",
             flexDirection:"column",
@@ -190,7 +190,7 @@ const Crousal = () => {
             variant="contained"
             sx={{
               p: { xl: 2, lg: 2, md: 2, sm: 2, xs: 2 },
-              mr: { xl: 50, lg: 50, md: 80, sm: 50, xs: 30 },
+              mr: { xl: 30, lg: 30, md: 80, sm: 50, xs: 30 },
               mt: 3,
               fontWeight: 100,
             }}
@@ -199,7 +199,10 @@ const Crousal = () => {
             READ MORE
           </Button>
         </Box>
-         
+        
+        <div class="image-container">
+          <img src={img4} alt="" srcset="" />
+         </div>
       </Box>
     </>
   );

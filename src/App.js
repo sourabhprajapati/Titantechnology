@@ -2,14 +2,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import './App.css';
-import Header from './components/Header/Header';
-import Crousal from './components/crousal/Crousal';
+import Home from './components/Home/Home';
+
 
 function App() {
   return (
     <>
-      <Header/>
-      <Crousal/>
+      <Home/>
     </>
   );
 }

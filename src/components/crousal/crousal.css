@@ -35,8 +35,26 @@ line-height: 0.5vw;
 }
 
 
-@media only screen and (min-width: 1200px){
-    .vector1{
-        height: "10vh";
+.image-container {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Optional: Center the image */
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  @media (min-width: 768px) {
+    .image-container {
+      max-width: 90%; /* Adjust the width for tablets or larger screens */
+     
     }
-}
+  }
+  
+  @media (min-width: 1024px) {
+    .image-container {
+      max-width: 60%; /* Adjust the width for desktop screens */
+      /* margin-bottom: 30px; */
+    }
+  }  
